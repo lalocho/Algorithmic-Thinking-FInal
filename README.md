@@ -1,1 +1,2 @@
-# Algorithmic-Thinking-FInal
+# Algorithmic-Thinking-Final
+# Luis Ochoa
