@@ -2,7 +2,7 @@ Integer Break
 
 Recursive Definition
 
-For this problem, my recursive definition involved something similar to calculating the fibonacci sequence, except that wehne calcualting the integer break you are constantly overwriting previous colutions with more maximinsed solutions and then proceeding the next index at the end of the loop. Just like in fibonacci, you are solivind this problem using Dynamic Programming with a single array.
+For this problem, my recursive definition would be to see how many twos(for even numbers) and twos and a three(for odd numbers) can be added in order to obtain the input. So you basically check if you can substract 3 from the number until you reach 4, which can only be divisible by 2 twos and then substract 3 if you are able to or 2 in the other case.In a more math way the funcion is f(x) = x(N-x) where n is the input.
 
 
 Storing Solutions
